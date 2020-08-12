@@ -1,0 +1,23 @@
+{
+  "name": "glide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaenthan18/Glide.git"
+  },
+  "author": "Aditya, Anoush, Braydn, Vaenthan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaenthan18/Glide/issues"
+  },
+  "homepage": "https://github.com/vaenthan18/Glide#readme"
+}
