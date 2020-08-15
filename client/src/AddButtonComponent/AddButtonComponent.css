@@ -1,0 +1,14 @@
+.addButtonComponentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+
+    color: black;
+}
