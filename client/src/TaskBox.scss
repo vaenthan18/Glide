@@ -2,7 +2,12 @@
 .taskBox {
     display: flex;
     border: 2px solid;
+    border-radius: 15px;
     align-items: middle;
+     
+    .square {
+        border-radius:6px;
+    }
     .info {
 
         margin: auto;

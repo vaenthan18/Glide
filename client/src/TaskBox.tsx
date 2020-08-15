@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Icon } from './boxIcon.svg';
+
 import "./TaskBox.scss";
 export interface taskComponentProps {
 
@@ -13,15 +13,15 @@ export default function TaskBox(props: taskComponentProps){
     <div className='taskBox' style={{ borderColor: props.classColour }}>
     
       <span className='icon info'>
-        <Icon fill={props.classColour}></Icon>
+        <div className='square' style={{backgroundColor: props.classColour}}> </div>
       </span>
 
       <span className='info text'>
         <div>
-          {props.name}
+          <h2> {props.name} </h2>
         </div>
         <div>
-          {props.dueDate}
+         Due: {props.dueDate}
         </div>
       </span>
 
