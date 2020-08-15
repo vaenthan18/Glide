@@ -1,0 +1,29 @@
+
+.taskBox {
+    display: flex;
+    border: 2px solid;
+    align-items: middle;
+    .info {
+
+        margin: auto;
+        display: inline-block;
+    }
+    
+    .icon {
+        *{width: 24px;
+            height: 24px;}
+        flex-basis: 48px;
+        vertical-align: middle;
+        align-self: center;
+        margin:  auto 8px;
+        
+    }
+
+ 
+    .text {
+        text-align: flex-start;
+        flex-basis: 100%;
+    }
+
+}
+

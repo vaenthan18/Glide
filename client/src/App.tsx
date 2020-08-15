@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TaskBox from './TaskBox'
 
 function App() {
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */
+    <TaskBox name={'Anoush'} className={'x'} dueDate={'Aug 17th, 2020'} classColour={'Blue'}/>
   );
 }
 
