@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
 
 library.add(faPlus);

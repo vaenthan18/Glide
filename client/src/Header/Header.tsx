@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faTasks, faComments, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faTasks, faComments, faStar } from '@fortawesome/free-solid-svg-icons'
 import './Header.css';
 // import { Nav } from 'react-bootstrap';
 

@@ -24,10 +24,7 @@ export default function TaskBox(props: taskComponentProps){
          Due: {props.dueDate}
         </div>
       </span>
-
-
     </div>
-
   );
 }
 
