@@ -7,7 +7,7 @@ import {
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from './Header/Header';
+import Sidebar from './Sidebar/Sidebar';
 import Board from './Main Board/Board'
 
 class App extends Component {
@@ -15,8 +15,8 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="container-fluid">
-                    <div className="row align-items-center">
-                        <Header />
+                    <div className="row justify-content-between">
+                        <Sidebar />
                         <Router>
                             <Switch>
                                 <Route path="/" exact component={Board} />

@@ -11,7 +11,7 @@ export interface columnComponentProps {
 
 export default function KanbanColumn(props: columnComponentProps) {
   return (
-  <div>
+  <div className="col">
     <h1 className='Header'>{props.groupName} </h1>
       <ul className='column'>
         {props.tasks.map((task) => (

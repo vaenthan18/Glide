@@ -1,13 +1,40 @@
 import React, { Component } from 'react';
+import './Board.css';
+
+import KanbanColumn from '../KanbanColumn/KanbanColumn';
+
+var ToDoProps = {
+    tasks: [{
+        name: "Yeet", 
+        className: "Yeet",
+        dueDate: "yeet",
+        classColour: "black" 
+      }
+    ],
+    groupName: "To Do"
+}
+
+var InProgressProps = {
+    tasks: [],
+    groupName: "In Progress"
+}
+
+var CompletedProps = {
+    tasks: [],
+    groupName: "Completed"
+}
 
 class Board extends Component {
     render() {
         return (
-            <div className="col-sm">
-                <h1 className="display-4">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <div className="col">
+                <div className="rounded-lg col bg-light content-section">
+                    <div className="row">
+                        {KanbanColumn(ToDoProps)}
+                        {KanbanColumn(InProgressProps)}
+                        {KanbanColumn(CompletedProps)}
+                    </div>
+                </div>
             </div>
         );
     }
