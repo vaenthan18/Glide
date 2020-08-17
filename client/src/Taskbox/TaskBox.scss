@@ -19,15 +19,26 @@
             height: 24px;}
         flex-basis: 48px;
         vertical-align: middle;
-        align-self: center;
+        align-self: flex-start;
         margin:  auto 8px;
         
     }
 
  
     .text {
-        text-align: flex-start;
+        text-align: left;
         flex-basis: 100%;
+
+        h2 {
+            font-family: Quicksand-bold;
+            font-size: 1.8em;
+            padding-top: 10px;
+        }
+
+        .due-date {
+            font-size: 1em;
+            padding-bottom: 10px;
+        }
     }
 
 }

@@ -1,0 +1,29 @@
+.addButtonComponentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 35px;
+    height: 35x;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+
+
+    color: white;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}

@@ -20,7 +20,7 @@ export default function TaskBox(props: taskComponentProps){
         <div>
           <h2> {props.name} </h2>
         </div>
-        <div>
+        <div className="due-date">
          Due: {props.dueDate}
         </div>
       </span>

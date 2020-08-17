@@ -8,8 +8,8 @@
     flex-direction: column;
     justify-content: space-between;
 
-    .box {
-        vertical-align: middle;   
-        margin-top:  15px;
+    li {
+        padding-left: 0;
+        border: none;
     }
 }

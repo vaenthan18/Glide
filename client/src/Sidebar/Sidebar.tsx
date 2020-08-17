@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faTasks, faComments, faStar } from '@fortawesome/free-solid-svg-icons'
-import './Sidebar.css';
+import './Sidebar.scss';
 // import { Nav } from 'react-bootstrap';
 
 class Sidebar extends Component {
