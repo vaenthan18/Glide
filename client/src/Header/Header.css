@@ -1,0 +1,41 @@
+
+.sidebar {
+    background-color: #623cea;
+    padding: 0;
+    height: 60vh;
+}
+
+.sidebar-sticky {
+    padding: 0;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+    font-family: Quicksand-bold;
+}
+
+ul {
+    padding-top: 30px;
+}
+
+li {
+    padding-left: 20px;
+}
+
+li:hover {
+    background-color: #7D6BD9;
+}
+
+a, a:hover, .menu-text {
+    color: white;
+    text-align: left;
+}
+
+h5 {
+    font-family: Quicksand-bold;
+    padding-top: 10px;
+    padding-left: 40px;
+    text-align: left;
+}

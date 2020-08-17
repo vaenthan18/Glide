@@ -1,5 +1,16 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(./fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-bold;
+    src: url(./fonts/Quicksand-Bold.ttf);
+}
+
 .App {
   text-align: center;
+  font-family: Quicksand;
 }
 
 .App-logo {
