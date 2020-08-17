@@ -1,3 +1,11 @@
+#mainTitle {
+    margin-bottom: 100px;
+}
+
+#subtitle2 {
+    margin-top: 75px;
+}
+
 #addAssignmentWrapper {
     background: solid;
     background-color: white;
