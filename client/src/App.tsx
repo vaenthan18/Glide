@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.js'
 
 import Header from './Header/Header';
 import Board from './Main Board/Board'
