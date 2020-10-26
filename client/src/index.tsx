@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import * as serviceWorker from './serviceWorker';
 
 library.add(faPlus);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+//   <React.StrictMode>
+    <App />,
+//   </React.StrictMode>,
   document.getElementById('root')
 );
 

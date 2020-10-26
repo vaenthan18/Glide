@@ -5,7 +5,7 @@ const pool = new Pool({
     password : "development",
     host : "localhost",
     port : 5432,
-    database : "Glide"
+    database : "glide"
 });
 
 module.exports = pool;
